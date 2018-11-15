@@ -42,4 +42,4 @@
 <img width="250" src="https://user-images.githubusercontent.com/42959261/48535678-72768d80-e8ef-11e8-857a-b08fd1c198ea.JPG">
 
 ###### Run As > Run MyBatis Generator 클릭해서 실행
-<img https://user-images.githubusercontent.com/42959261/48535680-74405100-e8ef-11e8-9f6f-b30ffe8b0686.png>
+<img src="https://user-images.githubusercontent.com/42959261/48535680-74405100-e8ef-11e8-9f6f-b30ffe8b0686.png">
