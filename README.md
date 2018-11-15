@@ -3,13 +3,17 @@
 ##### mybatis generator로 생성하는 방법
 
 ###### 1. Eclipse에서 Mybatis Generator plugin 설치
-
+<div>
+  <img width="300" src="https://user-images.githubusercontent.com/42959261/48535361-6d650e80-e8ee-11e8-80fa-577d2b616386.JPG">
+</div>
 
 ###### 2. generatorConfig.xml파일을 생성할 위치에 마우스 오른쪽 클릭 후 
 ######    New > MyBatis > MyBatis Generator Configuration File 생성
+<div>
+  <img width="300" src="https://user-images.githubusercontent.com/42959261/48535369-7655e000-e8ee-11e8-9c34-01597086c812.JPG">
+</div>
 
-
-3. 
+3. generatorConfiguration.xml에 환경에 맞게 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
