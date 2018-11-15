@@ -1,0 +1,36 @@
+# spring-mybatis-generator
+
+##### mybatis generator로 생성하는 방법
+
+###### 1. Eclipse에서 Mybatis Generator plugin 설치
+
+
+###### 2. generatorConfig.xml파일을 생성할 위치에 마우스 오른쪽 클릭 후 
+######    New > MyBatis > MyBatis Generator Configuration File 생성
+
+
+3. 
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+  <context id="context1">
+  
+    <jdbcConnection connectionURL="jdbc:mysql://localhost:3306/topcredue?autoreconnect=true" driverClass="com.mysql.jdbc.Driver" password="elin0827" userId="root" />
+    <!-- com.example.demo.model 디렉토리 안에 java model 파일 -->
+    <javaModelGenerator targetPackage="com.example.demo.model" targetProject="spring-mybatis-generator\src\main\java" />
+    
+    <!-- com.example.demo.mapper 디렉토리 안에 xml mapper 파일 -->
+    <sqlMapGenerator targetPackage="com.example.demo.mapper" targetProject="spring-mybatis-generator\src\main\resources" />
+    
+    <!-- com.example.demo.mapper 디렉토리 안에 java mapper 파일 -->
+    <javaClientGenerator targetPackage="com.example.demo.mapper" targetProject="spring-mybatis-generator\src\main\java" type="XMLMAPPER" />
+    
+    <table schema="emp" tableName="emp">
+      <!--  <columnOverride column="empno" property="empno" /> -->
+    </table>
+    <table schema="member" tableName="member"/>
+  
+  </context>
+</generatorConfiguration>
+```
