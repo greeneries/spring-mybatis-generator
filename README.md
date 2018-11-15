@@ -13,7 +13,7 @@
   <img width="300" src="https://user-images.githubusercontent.com/42959261/48535369-7655e000-e8ee-11e8-9c34-01597086c812.JPG">
 </div>
 
-3. generatorConfiguration.xml에 환경에 맞게 
+###### 3. generatorConfiguration.xml에 환경에 맞게 설정
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
@@ -38,3 +38,5 @@
   </context>
 </generatorConfiguration>
 ```
+
+
